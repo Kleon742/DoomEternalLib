@@ -1,0 +1,7 @@
+enum liveTileImageType_t : int
+{
+    LIVE_TILE_IMAGE_TYPE_INVALID = -1,
+    LIVE_TILE_IMAGE_TYPE_NONE = 0,
+    LIVE_TILE_IMAGE_TYPE_LOCAL = 1,
+    LIVE_TILE_IMAGE_TYPE_WEB = 2
+};

@@ -1,0 +1,8 @@
+enum lockonState_t : int
+{
+    LOCKON_STATE_INVALID = -1,
+    LOCKON_STATE_NONE = 0,
+    LOCKON_STATE_ACQUIRING = 1,
+    LOCKON_STATE_LOCKED = 2,
+    LOCKON_STATE_MEATHOOKED = 3
+};

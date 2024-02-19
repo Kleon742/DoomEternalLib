@@ -1,0 +1,10 @@
+enum swfPlatform_t : int
+{
+    SWF_PLATFORM_INVALID = -1,
+    SWF_PLATFORM_XBOX = 0,
+    SWF_PLATFORM_PS = 1,
+    SWF_PLATFORM_PC = 2,
+    SWF_PLATFORM_SWITCH = 3,
+    SWF_PLATFORM_STADIA = 4,
+    SWF_NUM_PLATFORMS = 5
+};

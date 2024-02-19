@@ -1,0 +1,5 @@
+enum enum_9900 : int
+{
+    RES_ENTRY_GENERATE_HASH_NOT_SET = 0,
+    RES_ENTRY_GENERATE_HASH_DEFAULTED = 1
+};

@@ -1,0 +1,9 @@
+enum profileDrawType_t : int
+{
+    PROFILE_DRAW_LINE = 0,
+    PROFILE_DRAW_POINT = 1,
+    PROFILE_DRAW_STEP_XY = 2,
+    PROFILE_DRAW_STEP_YX = 3,
+    PROFILE_DRAW_COLUMN = 4,
+    PROFILE_DRAW_LOLLIPOP = 5
+};

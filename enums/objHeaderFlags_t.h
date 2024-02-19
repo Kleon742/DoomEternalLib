@@ -1,0 +1,11 @@
+enum objHeaderFlags_t : int
+{
+    HEADER_VIS_STALE = 1,
+    HEADER_VIS_NOT_STALE = 2,
+    HEADER_NEW = 4,
+    HEADER_DELETED = 8,
+    HEADER_DIFFERENT = 16,
+    HEADER_SAME = 32,
+    HEADER_REQUIRED_IN_SNAP = 64,
+    HEADER_RLE_NOT_USED = 128
+};

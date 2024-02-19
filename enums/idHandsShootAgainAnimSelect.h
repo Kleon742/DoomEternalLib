@@ -1,0 +1,8 @@
+enum idHandsShootAgainAnimSelect : int
+{
+    HANDS_SHOOT_AGAIN_ANIM_0 = 0,
+    HANDS_SHOOT_AGAIN_ANIM_1 = 1,
+    HANDS_SHOOT_AGAIN_ANIM_2 = 2,
+    HANDS_SHOOT_AGAIN_ANIM_3 = 3,
+    HANDS_SHOOT_AGAIN_ANIM_MAX = 4
+};

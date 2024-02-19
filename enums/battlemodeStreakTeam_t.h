@@ -1,0 +1,6 @@
+enum battlemodeStreakTeam_t : int
+{
+    BATTLEMODE_STREAK_TEAM_SLAYER = 0,
+    BATTLEMODE_STREAK_TEAM_DEMON = 1,
+    NUM_BATTLEMODE_STREAK_TEAMS = 2
+};

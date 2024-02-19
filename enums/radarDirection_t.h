@@ -1,0 +1,12 @@
+enum radarDirection_t : int
+{
+    RADAR_BACKWARD = 0,
+    RADAR_LEFT = 1,
+    RADAR_RIGHT = 2,
+    RADAR_FORWARD_LEFT = 3,
+    RADAR_FORWARD_RIGHT = 4,
+    RADAR_BACKWARD_LEFT = 5,
+    RADAR_BACKWARD_RIGHT = 6,
+    RADAR_FORWARD = 7,
+    RADAR_MAX = 8
+};

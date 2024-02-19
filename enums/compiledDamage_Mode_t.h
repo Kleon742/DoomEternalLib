@@ -1,0 +1,8 @@
+enum compiledDamage_Mode_t : int
+{
+    CD_GAMEMODE_ANY = 0,
+    CD_GAMEMODE_CAMPAIGN = 1,
+    CD_GAMEMODE_BATTLEMODE = 2,
+    CD_GAMEMODE_INVASION = 3,
+    CD_GAMEMODE_HORDE = 4
+};

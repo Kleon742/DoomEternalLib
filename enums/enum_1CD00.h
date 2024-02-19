@@ -1,0 +1,4 @@
+enum enum_1CD00 : int
+{
+    MAX_GEOM_CACHE_MODEL_INTERPOLATIONS_PER_FRAME = 512
+};

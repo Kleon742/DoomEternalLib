@@ -1,0 +1,8 @@
+enum aiEventPriority_t : int
+{
+    AIPRIORITY_VERY_LOW = 0,
+    AIPRIORITY_LOW = 25,
+    AIPRIORITY_MEDIUM = 50,
+    AIPRIORITY_HIGH = 75,
+    AIPRIORITY_VERY_HIGH = 100
+};

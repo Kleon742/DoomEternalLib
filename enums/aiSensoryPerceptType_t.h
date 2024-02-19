@@ -1,0 +1,7 @@
+enum aiSensoryPerceptType_t : int
+{
+    SENSORYPERCEPT_VISUAL = 1,
+    SENSORYPERCEPT_AUDIO = 2,
+    SENSORYPERCEPT_TOUCH = 3,
+    SENSORYPERCEPT_INFER = 4
+};

@@ -1,0 +1,8 @@
+enum prtSpawnMode_t : int
+{
+    PSPAWN_MODE_RATE = 0,
+    PSPAWN_MODE_AMOUNT = 1,
+    PSPAWN_MODE_INSTANT = 2,
+    PSPAWN_MODE_SURFACE = 3,
+    NUM_PSPAWN_MODES = 4
+};

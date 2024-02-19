@@ -1,0 +1,9 @@
+enum aiSizeClass_t : int
+{
+    AI_SIZE_CLASS_INVALID = -1,
+    AI_SIZE_CLASS_FODDER = 0,
+    AI_SIZE_CLASS_HEAVY = 1,
+    AI_SIZE_CLASS_SUPERHEAVY = 2,
+    AI_SIZE_CLASS_BOSS = 3,
+    AI_SIZE_CLASS_COUNT = 4
+};

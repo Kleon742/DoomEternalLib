@@ -1,0 +1,5 @@
+enum botEntityInformationType_t : int
+{
+    BOT_ENTITY_INFORMATION_TYPE_NONE = 0,
+    BOT_ENTITY_INFORMATION_TYPE_REQUIRED_POI = 1
+};

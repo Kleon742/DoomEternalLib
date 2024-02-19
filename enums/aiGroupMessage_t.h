@@ -1,0 +1,8 @@
+enum aiGroupMessage_t : int
+{
+    AIGROUPMSG_ENABLE = 0,
+    AIGROUPMSG_DISABLE = 1,
+    AIGROUPMSG_ADD_ENEMY = 2,
+    AIGROUPMSG_SET_ENEMY = 3,
+    AIGROUPMSG_MAX = 4
+};

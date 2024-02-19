@@ -1,0 +1,18 @@
+enum scrollControls_t : int
+{
+    NO_SCROLLING = 0,
+    DPAD_ONLY = 2,
+    LSTICK_ONLY = 4,
+    MOUSE_ONLY = 8,
+    RSTICK_ONLY = 16,
+    LSTICK_HORIZONTAL = 32,
+    DPAD_HORIZONTAL = 64,
+    PAGE_ONLY = 128,
+    REGULAR_SCROLL = 14,
+    USE_ALL = 30,
+    ALL_BUT_DPAD = 28,
+    HORIZONTAL = 96,
+    HORIZONTAL_SCROLL = 104,
+    REGULAR_PAGE = 142,
+    OMNIDIRECTIONAL = 110
+};

@@ -1,0 +1,7 @@
+enum prtSortType_t : int
+{
+    PSORT_TYPE_NONE = 0,
+    PSORT_TYPE_NEWEST_TO_OLDEST = 1,
+    PSORT_TYPE_OLDEST_TO_NEWEST = 2,
+    NUM_PSORT_TYPES = 3
+};

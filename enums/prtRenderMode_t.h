@@ -1,0 +1,9 @@
+enum prtRenderMode_t : int
+{
+    PRENDER_MODE_LIT = 0,
+    PRENDER_MODE_UNLIT = 1,
+    PRENDER_MODE_LIQUID = 2,
+    PRENDER_MODE_UNLIT_LIQUID = 3,
+    PRENDER_MODE_EXPLOSION = 4,
+    NUM_PRENDER_MODES = 5
+};

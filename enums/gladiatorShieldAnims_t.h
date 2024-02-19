@@ -1,0 +1,8 @@
+enum gladiatorShieldAnims_t : int
+{
+    SHIELD_ANIM_DIRECT_STRIKE_P1 = 0,
+    SHIELD_ANIM_HOP_STRIKE_P1 = 1,
+    SHIELD_ANIM_OVERHEAD_P1 = 2,
+    SHIELD_ANIM_ETHEREAL_RUSH_P1 = 3,
+    SHIELD_ANIM_COUNT = 4
+};

@@ -1,0 +1,9 @@
+enum doomEternalSku_t : int
+{
+    DOOM_ETERNAL_SKU_ANY = -1,
+    DOOM_ETERNAL_SKU_MAIN = 0,
+    DOOM_ETERNAL_SKU_DLC1 = 1,
+    DOOM_ETERNAL_SKU_DLC2 = 2,
+    DOOM_ETERNAL_SKU_HORDE = 3,
+    DOOM_ETERNAL_SKU_MAX = 4
+};

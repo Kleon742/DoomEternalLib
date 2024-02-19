@@ -1,0 +1,6 @@
+enum syncAnimChoice_t : int
+{
+    SYNC_ANIM_CHOSEN_RANDOMLY = 0,
+    SYNC_ANIM_CHOSEN_LEASTUSED = 1,
+    SYNC_ANIM_CHOSEN_BESTHEIGHTFIT = 2
+};

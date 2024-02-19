@@ -1,0 +1,5 @@
+enum saveGameErrorBase_t : int
+{
+    SAVEGAME_ERROR_NONE = 0,
+    SAVEGAME_ERROR_INCOMPATIBLE_NEWER_VERSION = 8192
+};

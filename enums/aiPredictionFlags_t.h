@@ -1,0 +1,7 @@
+enum aiPredictionFlags_t : int
+{
+    AIPREDICT_NONE = 0,
+    AIPREDICT_CLIP_TO_AAS = 1,
+    AIPREDICT_PROJECTILE = 2,
+    AIPREDICT_MODIFY_BY_DIFFICULTY = 2
+};

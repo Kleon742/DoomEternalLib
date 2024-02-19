@@ -1,0 +1,18 @@
+enum viewShakeMode_t : int
+{
+    SHAKE_RANDOM_ANGLE_POS = 0,
+    SHAKE_RANDOM_ANGLE = 1,
+    SHAKE_RANDOM_POS = 2,
+    SHAKE_PITCH_ANGLE = 3,
+    SHAKE_ROLL_ANGLE = 4,
+    SHAKE_YAW_ANGLE = 5,
+    SHAKE_X_POS = 6,
+    SHAKE_Y_POS = 7,
+    SHAKE_Z_POS = 8,
+    MOVE_PITCH_ANGLE = 9,
+    MOVE_ROLL_ANGLE = 10,
+    MOVE_YAW_ANGLE = 11,
+    MOVE_X_POS = 12,
+    MOVE_Y_POS = 13,
+    MOVE_Z_POS = 14
+};

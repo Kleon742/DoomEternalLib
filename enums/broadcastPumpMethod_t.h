@@ -1,0 +1,5 @@
+enum broadcastPumpMethod_t : int
+{
+    BROADCAST_PUMP_METHOD_SINGLETHREADED = 0,
+    BROADCAST_PUMP_METHOD_MULTITHREADED = 1
+};

@@ -1,0 +1,11 @@
+enum throwAnimType_t : int
+{
+    THROW_ANIM_NONE = -1,
+    THROW_ANIM_OVERHAND = 0,
+    THROW_ANIM_TELEPORTER = 1,
+    THROW_ANIM_SENSOR = 2,
+    THROW_ANIM_SHREDDER = 3,
+    THROW_ANIM_USE = 4,
+    THROW_ANIM_TESLAROCKET = 5,
+    THROW_ANIM_MAX = 6
+};

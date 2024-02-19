@@ -1,0 +1,7 @@
+enum collectibleType_t : int
+{
+    COLLECTIBLE_TYPE_UNKNOWN = 0,
+    COLLECTIBLE_TYPE_TOY = 1,
+    COLLECTIBLE_TYPE_ALBUM = 2,
+    COLLECTIBLE_TYPE_CHEAT_CODE = 3
+};

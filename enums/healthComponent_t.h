@@ -1,0 +1,7 @@
+enum healthComponent_t : int
+{
+    HEALTH_COMPONENT_HEALTH = 0,
+    HEALTH_COMPONENT_ARMOR = 1,
+    HEALTH_COMPONENT_SHIELD = 2,
+    HEALTH_COMPONENT_MAX = 3
+};

@@ -1,0 +1,14 @@
+enum surfaceType_t : int
+{
+    SURFACE_NONE = 0,
+    SURFACE_FLOOR = 1,
+    SURFACE_FLOOR_CRAWL = 2,
+    SURFACE_WALL = 3,
+    SURFACE_WALL_CRAWL = 4,
+    SURFACE_CEILING = 5,
+    SURFACE_HORIZONTAL_POLE = 6,
+    SURFACE_PERCH = 7,
+    SURFACE_AIR = 8,
+    SURFACE_CUSTOM = 9,
+    SURFACE_MAX = 10
+};

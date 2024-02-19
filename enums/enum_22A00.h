@@ -1,0 +1,6 @@
+enum enum_22A00 : int
+{
+    ARK_MDNT_ANIM_TIME_INVALID = -1,
+    ARK_MDNT_ANIM_NB_SPECIAL_MARKER = 6,
+    ARK_MDNT_ANIM_NB_MARKER = 8
+};

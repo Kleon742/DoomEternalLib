@@ -1,0 +1,6 @@
+enum declAFJointMod_t : int
+{
+    DECLAF_JOINTMOD_AXIS = 0,
+    DECLAF_JOINTMOD_ORIGIN = 1,
+    DECLAF_JOINTMOD_BOTH = 2
+};

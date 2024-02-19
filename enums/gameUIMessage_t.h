@@ -1,0 +1,7 @@
+enum gameUIMessage_t : int
+{
+    GAMEUI_MSG_NONE = 0,
+    GAMEUI_MSG_ACTION_FEEDBACK = 1,
+    GAMEUI_MSG_GAMEPLAY_REMINDER = 2,
+    GAMEUI_MAX_MESSAGES = 3
+};

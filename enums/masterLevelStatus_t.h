@@ -1,0 +1,6 @@
+enum masterLevelStatus_t : int
+{
+    MASTER_LEVEL_STATUS_NOT_OWNED = -1,
+    MASTER_LEVEL_STATUS_LOCKED = 0,
+    MASTER_LEVEL_STATUS_UNLOCKED = 1
+};

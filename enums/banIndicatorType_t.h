@@ -1,0 +1,6 @@
+enum banIndicatorType_t : int
+{
+    SWF_BAN_INDICATOR_TYPE_NONE = 0,
+    SWF_BAN_INDICATOR_TYPE_WARNING = 1,
+    SWF_BAN_INDICATOR_TYPE_BAN = 2
+};

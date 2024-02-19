@@ -1,0 +1,5 @@
+enum annosoftGenFlags_t : int
+{
+    ANNOSOFT_GENFLAG_SIMPLE_VISEMES = 1,
+    ANNOSOFT_GENFLAG_SPREAD_OUT_TEXT_TIMINGS = 2
+};

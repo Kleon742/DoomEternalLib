@@ -1,0 +1,12 @@
+enum prtDistributionTypeGPU_t : int
+{
+    PDIST_GPU_NONE = 0,
+    PDIST_GPU_BOX = 1,
+    PDIST_GPU_BOX_SURFACE = 2,
+    PDIST_GPU_SPHERE = 3,
+    PDIST_GPU_SPHERE_SURFACE = 4,
+    PDIST_GPU_CYLINDER = 5,
+    PDIST_GPU_CYLINDER_SURFACE = 6,
+    PDIST_GPU_GRID = 7,
+    NUM_PDIST_GPU_TYPES = 8
+};

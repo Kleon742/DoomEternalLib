@@ -1,0 +1,8 @@
+enum syncWallCheck_t : int
+{
+    SYNCWALLCHECK_NONE = 0,
+    SYNCWALLCHECK_FRONT = 1,
+    SYNCWALLCHECK_BACK = 2,
+    SYNCWALLCHECK_LEFT = 3,
+    SYNCWALLCHECK_RIGHT = 4
+};

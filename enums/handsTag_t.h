@@ -1,0 +1,8 @@
+enum handsTag_t : int
+{
+    HANDSTAG_RIGHT = 0,
+    HANDSTAG_LEFT = 1,
+    HANDSTAG_RIGHT_SHOULDER = 2,
+    HANDSTAG_LEFT_SHOULDER = 3,
+    HANDSTAG_MAX = 4
+};

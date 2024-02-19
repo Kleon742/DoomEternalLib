@@ -1,0 +1,21 @@
+enum cpuid_t : int
+{
+    CPUID_NONE = 0,
+    CPUID_UNSUPPORTED = 1,
+    CPUID_GENERIC = 2,
+    CPUID_INTEL = 4,
+    CPUID_AMD = 8,
+    CPUID_CMOV = 16,
+    CPUID_MMX = 32,
+    CPUID_SSE = 64,
+    CPUID_SSE2 = 128,
+    CPUID_SSE3 = 256,
+    CPUID_SSSE3 = 512,
+    CPUID_SSE41 = 1024,
+    CPUID_SSE42 = 2048,
+    CPUID_AVX = 4096,
+    CPUID_ALTIVEC = 8192,
+    CPUID_VMX128 = 16384,
+    CPUID_HTT = 32768,
+    CPUID_EM64T = 65536
+};

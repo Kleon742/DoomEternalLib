@@ -1,0 +1,9 @@
+enum syncType_t : int
+{
+    SYNC_PLAYER_ON_AI = 0,
+    SYNC_AI_ON_PLAYER = 1,
+    SYNC_AI_ON_AI = 2,
+    SYNC_PLAYER_ON_PLAYER = 3,
+    SYNC_PROJECTILE_ON_PLAYER = 4,
+    SYNC_FAILURE = 5
+};

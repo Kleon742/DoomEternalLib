@@ -1,0 +1,8 @@
+enum animEventFlags_t : unsigned int
+{
+    ANIM_EVENT_FLAG_NONE = 0,
+    ANIM_EVENT_FLAG_DISABLED = 2,
+    ANIM_EVENT_FLAG_DEBUG = 4,
+    ANIM_EVENT_FLAG_LOCKED = 8,
+    ANIM_EVENT_ACTIVATE_IN_RANGE = 16
+};

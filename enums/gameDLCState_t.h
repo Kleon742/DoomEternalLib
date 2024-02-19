@@ -1,0 +1,6 @@
+enum gameDLCState_t : int
+{
+    GAME_DLC_STATE_DEFAULT = 0,
+    GAME_DLC_STATE_AUTHORITY = 1,
+    GAME_DLC_STATE_SEWERS = 2
+};

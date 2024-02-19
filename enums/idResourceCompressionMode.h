@@ -1,0 +1,10 @@
+enum idResourceCompressionMode : int
+{
+    RES_COMP_MODE_NONE = 0,
+    RES_COMP_MODE_ZLIB = 1,
+    RES_COMP_MODE_KRAKEN = 2,
+    RES_COMP_MODE_LZNA = 3,
+    RES_COMP_MODE_KRAKEN_CHUNKED = 4,
+    RES_COMP_MODE_LEVIATHAN = 5,
+    RES_COMP_MODE_ENUM_MAX = 6
+};

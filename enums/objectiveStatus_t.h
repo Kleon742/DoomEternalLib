@@ -1,0 +1,7 @@
+enum objectiveStatus_t : int
+{
+    OBJECTIVE_INVALID = 0,
+    OBJECTIVE_INPROGRESS = 1,
+    OBJECTIVE_COMPLETED = 2,
+    OBJECTIVE_TREASURE_HINT = 3
+};

@@ -1,0 +1,7 @@
+enum textChatChannel_t : int
+{
+    TEXT_CHAT_CHANNEL_GAME = 0,
+    TEXT_CHAT_CHANNEL_PARTY = 1,
+    TEXT_CHAT_CHANNEL_TEAM = 2,
+    NUM_TEXT_CHAT_CHANNELS = 3
+};

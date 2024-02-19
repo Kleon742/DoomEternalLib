@@ -1,0 +1,6 @@
+enum playerHealthComponent_t : int
+{
+    PLAYER_HEALTH_COMPONENT_HEALTH = 0,
+    PLAYER_HEALTH_COMPONENT_ARMOR = 1,
+    PLAYER_HEALTH_MAX = 2
+};

@@ -1,0 +1,6 @@
+enum mainMenuDemoElementID_t : int
+{
+    MAIN_MENU_DEMO_INVALID = -1,
+    MAIN_MENU_SCREEN_DEMO_START = 0,
+    MAIN_MENU_SCREEN_DEMO_SETTINGS = 1
+};

@@ -1,0 +1,7 @@
+enum profileError_t : int
+{
+    PROFILE_ERROR_NONE = 0,
+    PROFILE_ERROR_CORRUPT = 1,
+    PROFILE_ERROR_OUT_OF_DATE = 2,
+    PROFILE_ERROR_SERIALIZE_FAILED = 3
+};

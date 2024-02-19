@@ -1,0 +1,24 @@
+enum expOpType_t : int
+{
+    OP_TYPE_UNMASKED_MOVE_CONSTANT = 0,
+    OP_TYPE_UNMASKED_MOVE = 1,
+    OP_TYPE_MOVE_CONSTANT = 2,
+    OP_TYPE_MOVE = 3,
+    OP_TYPE_SWIZZLE = 4,
+    OP_TYPE_ADD = 5,
+    OP_TYPE_SUBTRACT = 6,
+    OP_TYPE_MULTIPLY = 7,
+    OP_TYPE_DOT3 = 8,
+    OP_TYPE_DOT4 = 9,
+    OP_TYPE_DIVIDE = 10,
+    OP_TYPE_MOD = 11,
+    OP_TYPE_GT = 12,
+    OP_TYPE_GE = 13,
+    OP_TYPE_LT = 14,
+    OP_TYPE_LE = 15,
+    OP_TYPE_EQ = 16,
+    OP_TYPE_NE = 17,
+    OP_TYPE_AND = 18,
+    OP_TYPE_OR = 19,
+    OP_MAX = 20
+};

@@ -1,0 +1,8 @@
+enum botWeaponFireMode_t : int
+{
+    WEAPON_FIRE_MODE_HOLD = 0,
+    WEAPON_FIRE_MODE_FORCE = 1,
+    WEAPON_FIRE_MODE_FORCE_ONCE = 2,
+    WEAPON_FIRE_MODE_WHEN_READY = 3,
+    WEAPON_MODE_MAX = 4
+};

@@ -1,0 +1,9 @@
+enum prtAttractorType_t : int
+{
+    PATTRACT_TYPE_NONE = 0,
+    PATTRACT_TYPE_POINT = 1,
+    PATTRACT_TYPE_AXIS = 2,
+    PATTRACT_TYPE_PLANE = 3,
+    PATTRACT_TYPE_TARGET = 4,
+    NUM_PATTRACT_TYPES = 5
+};

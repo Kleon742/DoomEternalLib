@@ -1,0 +1,6 @@
+enum profileSource_t : int
+{
+    PROFILE_SOURCE_RADTELEMETRY = 0,
+    PROFILE_SOURCE_REMOTEMONITOR = 1,
+    PROFILE_SOURCE_COUNT = 2
+};

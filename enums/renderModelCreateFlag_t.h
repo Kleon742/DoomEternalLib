@@ -1,0 +1,5 @@
+enum renderModelCreateFlag_t : int
+{
+    RENDERMODEL_CREATE_FLAG_NONE = 0,
+    RENDERMODEL_CREATE_FLAG_LIGHTMAPPED = 2
+};

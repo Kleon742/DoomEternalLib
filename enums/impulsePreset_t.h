@@ -1,0 +1,9 @@
+enum impulsePreset_t : int
+{
+    IMPULSE_CUSTOM = 0,
+    IMPULSE_RANDOM = 1,
+    IMPULSE_CONE = 2,
+    IMPULSE_SPHERICAL = 3,
+    IMPULSE_ANGEL_WINGS = 4,
+    IMPULSE_THRU_SQUARE = 5
+};

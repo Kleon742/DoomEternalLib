@@ -1,0 +1,13 @@
+enum memTagGroup_t : int
+{
+    TAG_GROUP_NONE = 0,
+    TAG_GROUP_NEW = 1,
+    TAG_GROUP_GAME = 2,
+    TAG_GROUP_AI = 3,
+    TAG_GROUP_ANIMATION = 4,
+    TAG_GROUP_ENGINE = 5,
+    TAG_GROUP_RENDERER = 6,
+    TAG_GROUP_COLLISION = 7,
+    TAG_GROUP_UI = 8,
+    TAG_NUM_TAG_GROUPS = 9
+};

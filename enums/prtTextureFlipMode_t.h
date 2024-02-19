@@ -1,0 +1,7 @@
+enum prtTextureFlipMode_t : int
+{
+    PTEXTURE_FLIP_NONE = 0,
+    PTEXTURE_FLIP_RANDOM = 1,
+    PTEXTURE_FLIP_ALWAYS = 2,
+    NUM_PTEXTURE_FLIP_TYPES = 3
+};

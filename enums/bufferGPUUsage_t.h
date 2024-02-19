@@ -1,0 +1,15 @@
+enum bufferGPUUsage_t : unsigned short
+{
+    NONE = 0,
+    VERTEX = 1,
+    INDEX = 2,
+    UNIFORM = 4,
+    STORAGE = 8,
+    INDIRECT = 16,
+    UNIFORM_TEXEL = 32,
+    STORAGE_TEXEL = 64,
+    SHADER_BINDING_TABLE = 128,
+    DEVICE_ADDRESS = 256,
+    ACCELERATION_STRUCTURE_STORAGE = 512,
+    ACCELERATION_STRUCTURE_BUILD = 1024
+};

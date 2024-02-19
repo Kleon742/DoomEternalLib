@@ -1,0 +1,23 @@
+enum playerInput_t : int
+{
+    INPUT_NONE = 0,
+    INPUT_ATTACK1 = 1,
+    INPUT_ATTACK2 = 2,
+    INPUT_USE = 3,
+    INPUT_ZOOM = 4,
+    INPUT_SPRINT = 5,
+    INPUT_RELOAD = 6,
+    INPUT_LEFT = 7,
+    INPUT_RIGHT = 8,
+    INPUT_FORWARD = 9,
+    INPUT_BACKWARD = 10,
+    INPUT_JUMP = 11,
+    INPUT_CROUCH = 12,
+    INPUT_THROW = 13,
+    INPUT_NOT_ATTACK1 = 14,
+    INPUT_NOT_ATTACK2 = 15,
+    INPUT_QUICK_CHAINSAW = 16,
+    INPUT_ANY = 17,
+    INPUT_ANY_OR_NONE = 18,
+    INPUT_MAX = 19
+};

@@ -1,0 +1,7 @@
+enum aiArrivalOrientation_t : int
+{
+    AIARRIVAL_ORIENT_NONE = 0,
+    AIARRIVAL_ORIENT_ALIGN = 1,
+    AIARRIVAL_ORIENT_AIM_FOCUS = 2,
+    AIARRIVAL_ORIENT_MAX = 3
+};

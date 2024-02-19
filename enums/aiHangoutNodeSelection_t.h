@@ -1,0 +1,6 @@
+enum aiHangoutNodeSelection_t : int
+{
+    HANGOUTSELECT_NO_HANGOUTS = 0,
+    HANGOUTSELECT_HANGOUTS_ONLY = 1,
+    HANGOUTSELECT_ALL_COVER = 2
+};

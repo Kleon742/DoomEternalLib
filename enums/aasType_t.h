@@ -1,0 +1,12 @@
+enum aasType_t : int
+{
+    AAS_MONSTER16 = 0,
+    AAS_MONSTER24 = 1,
+    AAS_BOTPLAYER = 2,
+    AAS_MONSTER48 = 3,
+    AAS_MONSTER96 = 4,
+    AAS_MONSTER128 = 5,
+    AAS_MONSTER256 = 6,
+    AAS_PLAYER = 7,
+    AAS_FILE_EXTENSION_MAX = 8
+};

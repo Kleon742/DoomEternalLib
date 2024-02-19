@@ -1,0 +1,6 @@
+enum collide_t : int
+{
+    COLLIDE_CONTINUE_SIMULATION = 0,
+    COLLIDE_STOP_SIMULATION = 1,
+    COLLIDE_IGNORE_COLLISION = 2
+};

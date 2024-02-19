@@ -1,0 +1,7 @@
+enum botGameManagerType_t : int
+{
+    BOT_GAME_MANAGER_TYPE_DM = 0,
+    BOT_GAME_MANAGER_TYPE_TDM = 1,
+    BOT_GAME_MANAGER_TYPE_COOP = 2,
+    BOT_GAME_MANAGER_TYPE_MAX = 3
+};

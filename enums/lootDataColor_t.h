@@ -1,0 +1,8 @@
+enum lootDataColor_t : int
+{
+    LOOTDATA_COLOR_NONE = 0,
+    LOOTDATA_COLOR_BLUE = 1,
+    LOOTDATA_COLOR_GREEN = 2,
+    LOOTDATA_COLOR_YELLOW = 3,
+    LOOTDATA_COLOR_WHITE = 4
+};

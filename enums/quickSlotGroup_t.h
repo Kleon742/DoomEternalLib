@@ -1,0 +1,7 @@
+enum quickSlotGroup_t : int
+{
+    QUICKSLOTGROUP_NONE = 0,
+    QUICKSLOTGROUP_WEAPON = 1,
+    QUICKSLOTGROUP_ITEM = 2,
+    QUICKSLOTGROUP_DEMON = 3
+};

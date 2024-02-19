@@ -1,0 +1,9 @@
+enum socialUserListType_t : int
+{
+    SOCIAL_LIST_NONE = -1,
+    SOCIAL_LIST_PARTY = 0,
+    SOCIAL_LIST_FAVORITES = 1,
+    SOCIAL_LIST_FRIENDS = 2,
+    SOCIAL_LIST_RECENT_PLAYERS = 3,
+    NUM_SOCIAL_LIST_TYPES = 4
+};

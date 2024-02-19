@@ -1,0 +1,7 @@
+enum codexStatus_t : int
+{
+    CODEX_STATUS_NOT_FOUND = -1,
+    CODEX_STATUS_UNDISCOVERED = 0,
+    CODEX_STATUS_UNREAD = 1,
+    CODEX_STATUS_READ = 2
+};

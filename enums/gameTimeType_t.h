@@ -1,0 +1,8 @@
+enum gameTimeType_t : int
+{
+    GAMETIME_NORMAL = 0,
+    GAMETIME_SCALED = 1,
+    GAMETIME_PHOTOMODE = 2,
+    GAMETIME_SERVER = 3,
+    GAMETIME_TOTAL = 4
+};

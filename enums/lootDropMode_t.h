@@ -1,0 +1,6 @@
+enum lootDropMode_t : int
+{
+    LOOT_DROPMODE_CHANCE_OVERALL = 0,
+    LOOT_DROPMODE_CHANCE_PER_ITEM = 1,
+    LOOT_DROPMODE_ALWAYS = 2
+};

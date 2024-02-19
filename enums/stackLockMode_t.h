@@ -1,0 +1,7 @@
+enum stackLockMode_t : int
+{
+    STACKLOCKMODE_NONE = -1,
+    STACKLOCKMODE_MULTI = 0,
+    STACKLOCKMODE_SINGLE = 1,
+    STACKLOCKMODE_DUAL = 2
+};

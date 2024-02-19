@@ -1,0 +1,6 @@
+enum aimAssistInterpolateType_t : int
+{
+    AIM_ASSIST_INTERP_TYPE_TANGENT = 0,
+    AIM_ASSIST_INTERP_TYPE_COSINE = 1,
+    AIM_ASSIST_INTERP_TYPE_SMOOTHSTEP = 2
+};

@@ -1,0 +1,7 @@
+enum statDrivenEvent_t : int
+{
+    STAT_EVENT_INVALID = -1,
+    STAT_EVENT_HINT_EXPLORATION = 1,
+    STAT_EVENT_HINT_COMBAT = 2,
+    STAT_EVENT_HINT_ALL = 3
+};

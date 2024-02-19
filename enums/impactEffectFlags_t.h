@@ -1,0 +1,9 @@
+enum impactEffectFlags_t : int
+{
+    IMPACT_NONE = 0,
+    IMPACT_SKIP_PARTICLES = 1,
+    IMPACT_NO_DECALS = 2,
+    IMPACT_NO_SOUNDS = 4,
+    IMPACT_USE_OWNER_VELOCITY = 8,
+    IMPACT_LOCAL_PLAYER_MELEE = 16
+};

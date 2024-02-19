@@ -1,0 +1,7 @@
+enum lootItemAmountCalculation_t : int
+{
+    LOOT_ITEM_AMT_CALC_EXPLICIT = 0,
+    LOOT_ITEM_AMT_CALC_PERCENTAGE = 1,
+    LOOT_ITEM_AMT_CALC_NEEDED = 2,
+    LOOT_ITEM_AMT_CALC_EXPLICIT_MAX_DROP = 3
+};

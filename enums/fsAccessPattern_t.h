@@ -1,0 +1,6 @@
+enum fsAccessPattern_t : int
+{
+    FSACCESS_PATTERN_DEFAULT = 0,
+    FSACCESS_PATTERN_UNBUFFERED = 1,
+    FSACCESS_PATTERN_RANDOM = 2
+};

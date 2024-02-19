@@ -1,0 +1,6 @@
+enum vrControllerRole_t : int
+{
+    VR_CONTROLLER_ROLE_PRIMARY = 0,
+    VR_CONTROLLER_ROLE_SECONDARY = 1,
+    VR_CONTROLLER_ROLE_COUNT = 2
+};

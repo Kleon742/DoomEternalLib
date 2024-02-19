@@ -1,0 +1,10 @@
+enum pointOfInterestIconType_t : int
+{
+    POI_ICON_WAYPOINT = 0,
+    POI_ICON_TARGET = 1,
+    POI_ICON_USE = 2,
+    POI_ICON_WAYPOINT_NONE = 3,
+    POI_ICON_WAYPOINT_HALF = 4,
+    POI_ICON_DROPPABLE_SELF = 5,
+    POI_ICON_DROPPABLE_TEAM = 6
+};

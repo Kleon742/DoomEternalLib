@@ -1,0 +1,15 @@
+enum gameStatDuration_t : int
+{
+    DUR_LEVEL = 0,
+    DUR_GAME = 1,
+    DUR_CHECKPOINT = 2,
+    DUR_PROFILE = 3,
+    DUR_CUSTOM = 4,
+    DUR_CUSTOM_LEVEL = 5,
+    DUR_CAMPAIGN_PROFILE = 6,
+    DUR_HACK_FIX_CUSTOM = 7,
+    DUR_HACK_FIX_CUSTOM_LEVEL = 8,
+    DUR_DLC1_PROFILE = 9,
+    DUR_DLC2_PROFILE = 10,
+    DUR_HORDE_PROFILE = 11
+};

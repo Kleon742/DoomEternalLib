@@ -1,0 +1,9 @@
+enum aiFSM_IO_type_t : int
+{
+    FSM_IO_INVALID = 0,
+    FSM_IO_BLACKBOARD = 1,
+    FSM_IO_VEC3_LIST = 2,
+    FSM_IO_MAJOR_POSITION_LIST = 3,
+    FSM_IO_POSE_POSITION_LIST = 4,
+    FSM_IO_ANIM_INSTANCE_LIST = 5
+};

@@ -1,0 +1,9 @@
+enum equipmentType_t : int
+{
+    EQUIPMENT_NONE = -1,
+    EQUIPMENT_FRAG_GRENADE = 0,
+    EQUIPMENT_ICE_BOMB = 1,
+    EQUIPMENT_FLAME_BELCH = 2,
+    EQUIPMENT_HAMMER = 3,
+    EQUIPMENT_MAX = 4
+};

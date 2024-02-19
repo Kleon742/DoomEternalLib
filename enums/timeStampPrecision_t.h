@@ -1,0 +1,7 @@
+enum timeStampPrecision_t : int
+{
+    TS_PRECISION_SECONDS = 0,
+    TS_PRECISION_MILLISECONDS = 1,
+    TS_PRECISION_MICROSECONDS = 2,
+    TS_PRECISION_AUTO = 3
+};

@@ -1,0 +1,8 @@
+enum aiPainRejectReason_t : int
+{
+    PAINREJECT_NONE = 0,
+    PAINREJECT_TAGS = 2,
+    PAINREJECT_TRANSLATION = 4,
+    PAINREJECT_NO_NODE = 8,
+    PAINREJECT_GUARANTEED_PAIN_ONLY = 16
+};

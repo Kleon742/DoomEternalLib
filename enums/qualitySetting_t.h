@@ -1,0 +1,12 @@
+enum qualitySetting_t : int
+{
+    QUALITY_OFF = 0,
+    QUALITY_LOW = 1,
+    QUALITY_MEDIUM = 2,
+    QUALITY_HIGH = 3,
+    QUALITY_ULTRA = 4,
+    QUALITY_NIGHTMARE = 5,
+    QUALITY_ULTRA_NIGHTMARE = 6,
+    QUALITY_CUSTOM = 7,
+    QUALITY_MAX = 8
+};

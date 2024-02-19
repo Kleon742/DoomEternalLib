@@ -1,0 +1,15 @@
+struct idSettingsDataSource_HDRCalibration : idSettingsDataSource
+{
+    enum screenCalibrationSettingFields_t : int
+    {
+        HDR_CALIBRATION_SETTING_MAX_NITS = 0,
+        HDR_CALIBRATION_SETTING_BRIGHTNESS = 1,
+        HDR_CALIBRATION_SETTING_CONTRAST = 2,
+        HDR_CALIBRATION_SETTING_SATURATION = 3,
+        HDR_CALIBRATION_SETTING_WHITEPOINT_MIN = 4,
+        HDR_CALIBRATION_SETTING_WHITEPOINT_MID = 5,
+        HDR_CALIBRATION_SETTING_WHITEPOINT_MAX = 6,
+        MAX_HDR_CALIBRATION_SETTINGS = 7
+    };
+
+}; // Size: 0x38

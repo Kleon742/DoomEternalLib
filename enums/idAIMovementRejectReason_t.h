@@ -1,0 +1,11 @@
+enum idAIMovementRejectReason_t : int
+{
+    MOVEREJECT_NONE = 0,
+    MOVEREJECT_NOOP = 2,
+    MOVEREJECT_WALKSTATE = 4,
+    MOVEREJECT_STRAF = 8,
+    MOVEREJECT_AIM = 16,
+    MOVEREJECT_ANIM = 32,
+    MOVEREJECT_FAST = 64,
+    MOVEREJECT_FIRE = 128
+};

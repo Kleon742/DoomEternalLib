@@ -1,0 +1,6 @@
+enum destructibleFlags_t : int
+{
+    DESTRUCT_FLAG_NONE = 0,
+    DESTRUCT_FLAG_ACTIVATE_ALL_ON_DAMAGE = 1,
+    DESTRUCT_FLAG_IGNORE_EXTERNAL_FORCE = 2
+};

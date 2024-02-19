@@ -1,0 +1,8 @@
+enum prtTextureRotateMode_t : int
+{
+    PTEXTURE_ROTATE_NONE = 0,
+    PTEXTURE_ROTATE_90_CW = 1,
+    PTEXTURE_ROTATE_180 = 2,
+    PTEXTURE_ROTATE_90_CCW = 3,
+    NUM_PTEXTURE_ROTATE_TYPES = 4
+};

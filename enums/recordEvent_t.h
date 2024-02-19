@@ -1,0 +1,7 @@
+enum recordEvent_t : int
+{
+    RECORD_EVENT_NONE = 0,
+    RECORD_EVENT_INPUT = 1,
+    RECORD_EVENT_PHYSICS = 2,
+    RECORD_EVENT_PHYSICS_WITH_VELOCITY = 3
+};

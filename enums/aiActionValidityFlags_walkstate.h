@@ -1,0 +1,8 @@
+enum aiActionValidityFlags_walkstate : unsigned int
+{
+    VALIDITY_NONE = 0,
+    VALIDITY_USABLE_WHILE_STOPPED = 1,
+    VALIDITY_USABLE_WHILE_WALKING = 2,
+    VALIDITY_USABLE_WHILE_RUNNING = 4,
+    VALIDITY_USABLE_OUTSIDE_MOVE_CYCLE = 8
+};

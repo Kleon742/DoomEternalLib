@@ -1,0 +1,8 @@
+enum fakePathFxStage_t : int
+{
+    STAGE_NONE = 0,
+    STAGE_PARTICLES_EXPANDING = 1,
+    STAGE_PARTICLES_STREAMING = 2,
+    STAGE_PARTICLES_COLLAPSING = 3,
+    STAGE_STALE = 4
+};

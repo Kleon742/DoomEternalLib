@@ -1,0 +1,10 @@
+enum socialPlatform_t : unsigned char
+{
+    SOCIAL_PLATFORM_BNET = 0,
+    SOCIAL_PLATFORM_GGP = 1,
+    SOCIAL_PLATFORM_NONE = 2,
+    SOCIAL_PLATFORM_NSO = 3,
+    SOCIAL_PLATFORM_PSN = 4,
+    SOCIAL_PLATFORM_STEAM = 5,
+    SOCIAL_PLATFORM_XBL = 6
+};
